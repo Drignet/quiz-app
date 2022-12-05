@@ -1,0 +1,61 @@
+main{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2{
+  color: #fff;
+  background: orange;
+  padding: 0.4em;
+  margin-top: 1.2em;
+  font-size: 1.2rem;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.score-div{
+  margin-block: 2em;
+  font-size: 1.6rem;
+  padding: 0.8em 0.2em;
+  border-radius: 0.4em 0.8em;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.remark{
+  background: #fff;
+  padding: 0.4em 0;
+  font-size: 1.8rem;
+  margin-block: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  border-radius: 0.6em;
+}
+
+.reset{
+  background: darkred;
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 0.2em 0.8em;
+  border-radius: 0.4em;
+  border: 2px solid #54C4FF;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.answerBtn{
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 2rem;
+  padding: 0.2em 0.4em;
+  margin-block: 1em;
+  background: #fff;
+  border-radius: 0.4em;
+  border: 1px solid #54C4FF;
+  color: #222;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.answerBtn:hover{
+  background: rgba(47,47,47, 0.5);
+  color: #fff;
+}
